@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<xliff xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" srcLang="en" trgLang="fr" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="7260030f59642074aa280d07e5a8447a" original="Assets/Localization/UILocalizationStrings_fr.asset">
+    <group id="59ff51ce3bbc2cc4b9391bc97b8a807d" name="UILocalizationStrings">
+      <unit id="52287889408" name="startText" xml:space="preserve">
+        <segment>
+          <source>Start</source>
+          <target>Démarrer</target>
+        </segment>
+      </unit>
+      <unit id="416449945600" name="readyText" xml:space="preserve">
+        <segment>
+          <source>Ready</source>
+          <target>{gender:choose(Male|Female):Prêt|Prête}</target>
+        </segment>
+      </unit>
+      <unit id="692657446912" name="maleText" xml:space="preserve">
+        <segment>
+          <source>Male</source>
+          <target>Mâle</target>
+        </segment>
+      </unit>
+      <unit id="842029195264" name="femaleText" xml:space="preserve">
+        <segment>
+          <source>Female</source>
+          <target>Femme</target>
+        </segment>
+      </unit>
+      <unit id="1118576435200" name="paraText" xml:space="preserve">
+        <segment>
+          <source>This is an example paragraph. We will put this nested words here like getting Ready.</source>
+          <target>Ceci est un exemple de paragraphe. Nous mettrons ces mots imbriqués ici comme se préparer.</target>
+        </segment>
+      </unit>
+      <unit id="29913941401600" name="sliderText" xml:space="preserve">
+        <segment>
+          <source> select {slider.value:choose(1|2|3):one|two|three}</source>
+          <target>sélectionner {slider.value:choose(1|2|3):un|deux|trois}</target>
+        </segment>
+      </unit>
+      <unit id="42186319716352" name="heroText" xml:space="preserve">
+        <segment>
+          <source>Our Hero {global.player-name} walked.</source>
+          <target>Notre héros  {global.player-name} a marché</target>
+        </segment>
+      </unit>
+      <unit id="415377198837760" name="penText" xml:space="preserve">
+        <segment>
+          <source>{slider.value:plural:pen|pens}</source>
+          <target>{slider.value:plural:stylo|stylos}</target>
+        </segment>
+      </unit>
+      <unit id="415869584961536" name="theItemText&#xA;" xml:space="preserve">
+        <segment>
+          <source>{item:{article}} {item} {verb} {color}</source>
+          <target>{item:{article}}{item:{grammarSpace}}{item} {verb} {item:{color}}</target>
+        </segment>
+      </unit>
+      <unit id="417066991644672" name="whiteText" xml:space="preserve">
+        <segment>
+          <source>white</source>
+          <target>{gender:choose(Male|Female):{slider.value:plural:blanc|blancs}|{slider.value:plural:blanche|blanches}}</target>
+        </segment>
+      </unit>
+      <unit id="427937549676544" name="purseText" xml:space="preserve">
+        <segment>
+          <source>{slider.value:plural:purse|purses}</source>
+          <target>{slider.value:plural:bourse|bourses}</target>
+        </segment>
+      </unit>
+      <unit id="428687818387456" name="articleText" xml:space="preserve">
+        <segment>
+          <source>The</source>
+          <target>{gender:choose(Male|Female):{slider.value:plural:{item:ismatch(^[aeiouAEIOUàâéèêëîïôöùûü]):L|Le}|Les}|{slider.value:plural:{item:ismatch(^[aeiouAEIOUàâéèêëîïôöùûü]):L|La}|Les}}</target>
+        </segment>
+      </unit>
+      <unit id="489851461988352" name="verbText" xml:space="preserve">
+        <segment>
+          <source>{slider.value:plural:is|are}</source>
+          <target>{slider.value:plural:est|sont}</target>
+        </segment>
+      </unit>
+      <unit id="723590418952192" name="elephantText" xml:space="preserve">
+        <segment>
+          <source>{slider.value:plural:elephant|elephants}</source>
+          <target>{slider.value:plural:éléphant|éléphants}</target>
+        </segment>
+      </unit>
+      <unit id="749499310043136" name="grammarSpaceText" xml:space="preserve">
+        <segment>
+          <source> </source>
+          <target>{slider.value:plural:{item:ismatch(^[aeiouAEIOUàâéèêëîïôöùûü]):'| }|{item:ismatch(^[aeiouAEIOUàâéèêëîïôöùûü]): |} }</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

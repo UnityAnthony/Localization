@@ -1,0 +1,1329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!641289076 &-8611939442117334082
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0
+--- !u!114 &-1990117321021593721
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13805, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!382020655 &-1716038829303007492
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - Newtonsoft.Json
+  - UnityAdsInitializationListener
+  - UnityAdsShowListener
+  - Unity.Burst.Cecil.Pdb
+  - nunit.framework
+  - Unity.Burst.Unsafe
+  - Unity.Burst.Cecil.Mdb
+  - Unity.Burst.Cecil
+  - Unity.VisualScripting.Antlr3.Runtime
+  - Unity.Burst.Cecil.Rocks
+  - UnityAdsLoadListener
+  m_EditorPlugins:
+  - Lucene.Net.Analysis.Common
+  - J2N
+  - Unity.VisualScripting.IonicZip
+  - Mono.Cecil.Pdb
+  - Lucene.Net
+  - log4netPlastic
+  - Mono.Cecil
+  - Mono.Cecil.Rocks
+  - System.Runtime.CompilerServices.Unsafe
+  - Mono.Cecil.Mdb
+  - System.Memory
+  - Unity.Analytics.Editor
+  - Unity.Plastic.Antlr3.Runtime
+  - Unity.VisualScripting.YamlDotNet
+  - zlib64Plastic
+  - liblz4Plastic
+  - System.Buffers
+  - Unity.Localization.ThirdParty.Editor
+  - Microsoft.Extensions.Configuration.Abstractions
+  - lz4x64Plastic
+  - Unity.Analytics.Tracker
+  - Unity.VisualScripting.sqlite3
+  - AppleEventIntegration
+  - Microsoft.Extensions.Primitives
+  - unityplastic
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Report
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 637850349250418169
+    buildGUID: cf547af8b08fa2748ac981758b55865f
+    platformName: Win64
+    platformGroupName: Standalone
+    subtarget: 0
+    options: 9
+    assetBundleOptions: 0
+    outputPath: D:/test/localization/Localization/Builds/PC/Localization.exe
+    crc: 0
+    totalSize: 117092377
+    totalTimeTicks: 153896061
+    totalErrors: 0
+    totalWarnings: 1
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/boot.config
+    role: config
+    id: 0
+    totalSize: 298
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/globalgamemanagers
+    role: globalgamemanagers
+    id: 1
+    totalSize: 190464
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/globalgamemanagers.assets
+    role: assets
+    id: 2
+    totalSize: 882708
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/globalgamemanagers.assets.resS
+    role: resS
+    id: 3
+    totalSize: 2899456
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/level0
+    role: level0
+    id: 4
+    totalSize: 272800
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/level0.resS
+    role: resS
+    id: 5
+    totalSize: 1744816
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/resources.assets
+    role: assets
+    id: 6
+    totalSize: 248384
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/resources.assets.resS
+    role: resS
+    id: 7
+    totalSize: 1712
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/RuntimeInitializeOnLoads.json
+    role: json
+    id: 8
+    totalSize: 1831
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/ScriptingAssemblies.json
+    role: json
+    id: 9
+    totalSize: 4065
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/sharedassets0.assets
+    role: assets
+    id: 10
+    totalSize: 2282600
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/sharedassets0.assets.resS
+    role: resS
+    id: 11
+    totalSize: 11361924
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/sharedassets0.resource
+    role: resource
+    id: 12
+    totalSize: 200576
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Resources/unity_builtin_extra
+    role: unity_builtin_extra
+    id: 13
+    totalSize: 415292
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/StreamingAssets/aa/catalog.json
+    role: json
+    id: 14
+    totalSize: 87794
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/StreamingAssets/aa/settings.json
+    role: json
+    id: 15
+    totalSize: 860
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/StreamingAssets/aa/AddressablesLink/link.xml
+    role: xml
+    id: 16
+    totalSize: 3143
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/StreamingAssets/aa/StandaloneWindows64/defaultlocalgroup_assets_all_1d3f0f0b6f88a4b5b199b8944bc9f3fb.bundle
+    role: bundle
+    id: 17
+    totalSize: 2335
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-english(en)_assets_all.bundle
+    role: bundle
+    id: 18
+    totalSize: 2622
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-french(fr)_assets_all.bundle
+    role: bundle
+    id: 19
+    totalSize: 2622
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/StreamingAssets/aa/StandaloneWindows64/localization-asset-tables-spanish(es)_assets_all.bundle
+    role: bundle
+    id: 20
+    totalSize: 2623
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/StreamingAssets/aa/StandaloneWindows64/localization-assets-english(en)_assets_all.bundle
+    role: bundle
+    id: 21
+    totalSize: 144379
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/StreamingAssets/aa/StandaloneWindows64/localization-assets-french(fr)_assets_all.bundle
+    role: bundle
+    id: 22
+    totalSize: 144073
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/StreamingAssets/aa/StandaloneWindows64/localization-assets-shared_assets_all.bundle
+    role: bundle
+    id: 23
+    totalSize: 4011
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/StreamingAssets/aa/StandaloneWindows64/localization-assets-spanish(es)_assets_all.bundle
+    role: bundle
+    id: 24
+    totalSize: 115779
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/StreamingAssets/aa/StandaloneWindows64/localization-locales_assets_all.bundle
+    role: bundle
+    id: 25
+    totalSize: 2502
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-english(en)_assets_all.bundle
+    role: bundle
+    id: 26
+    totalSize: 4149
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-french(fr)_assets_all.bundle
+    role: bundle
+    id: 27
+    totalSize: 3472
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/StreamingAssets/aa/StandaloneWindows64/localization-string-tables-spanish(es)_assets_all.bundle
+    role: bundle
+    id: 28
+    totalSize: 3715
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Plugins/x86_64/lib_burst_generated.dll
+    role: dll
+    id: 29
+    totalSize: 44544
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Plugins/x86_64/lib_burst_generated.pdb
+    role: pdb
+    id: 30
+    totalSize: 180224
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.AIModule.dll
+    role: dll
+    id: 31
+    totalSize: 45568
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.ARModule.dll
+    role: dll
+    id: 32
+    totalSize: 10752
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.AccessibilityModule.dll
+    role: dll
+    id: 33
+    totalSize: 12800
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.AndroidJNIModule.dll
+    role: dll
+    id: 34
+    totalSize: 68608
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.AnimationModule.dll
+    role: dll
+    id: 35
+    totalSize: 151552
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.AssetBundleModule.dll
+    role: dll
+    id: 36
+    totalSize: 23040
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.AudioModule.dll
+    role: dll
+    id: 37
+    totalSize: 58880
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.ClothModule.dll
+    role: dll
+    id: 38
+    totalSize: 15872
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.ClusterInputModule.dll
+    role: dll
+    id: 39
+    totalSize: 10752
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.ClusterRendererModule.dll
+    role: dll
+    id: 40
+    totalSize: 11776
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.CoreModule.dll
+    role: dll
+    id: 41
+    totalSize: 1255936
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.CrashReportingModule.dll
+    role: dll
+    id: 42
+    totalSize: 10240
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.DSPGraphModule.dll
+    role: dll
+    id: 43
+    totalSize: 18944
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.DirectorModule.dll
+    role: dll
+    id: 44
+    totalSize: 14336
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.GIModule.dll
+    role: dll
+    id: 45
+    totalSize: 9728
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.GameCenterModule.dll
+    role: dll
+    id: 46
+    totalSize: 29184
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.GridModule.dll
+    role: dll
+    id: 47
+    totalSize: 14336
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.HotReloadModule.dll
+    role: dll
+    id: 48
+    totalSize: 9728
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.IMGUIModule.dll
+    role: dll
+    id: 49
+    totalSize: 163328
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.ImageConversionModule.dll
+    role: dll
+    id: 50
+    totalSize: 13824
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.InputLegacyModule.dll
+    role: dll
+    id: 51
+    totalSize: 26112
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.InputModule.dll
+    role: dll
+    id: 52
+    totalSize: 13312
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.JSONSerializeModule.dll
+    role: dll
+    id: 53
+    totalSize: 11264
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.LocalizationModule.dll
+    role: dll
+    id: 54
+    totalSize: 10752
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.NVIDIAModule.dll
+    role: dll
+    id: 55
+    totalSize: 23552
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.ParticleSystemModule.dll
+    role: dll
+    id: 56
+    totalSize: 144384
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.PerformanceReportingModule.dll
+    role: dll
+    id: 57
+    totalSize: 10240
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Physics2DModule.dll
+    role: dll
+    id: 58
+    totalSize: 123392
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.PhysicsModule.dll
+    role: dll
+    id: 59
+    totalSize: 104960
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.ProfilerModule.dll
+    role: dll
+    id: 60
+    totalSize: 9728
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+    role: dll
+    id: 61
+    totalSize: 9728
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.ScreenCaptureModule.dll
+    role: dll
+    id: 62
+    totalSize: 10752
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.SharedInternalsModule.dll
+    role: dll
+    id: 63
+    totalSize: 21504
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.SpriteMaskModule.dll
+    role: dll
+    id: 64
+    totalSize: 10752
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.SpriteShapeModule.dll
+    role: dll
+    id: 65
+    totalSize: 15360
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.StreamingModule.dll
+    role: dll
+    id: 66
+    totalSize: 10240
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.SubstanceModule.dll
+    role: dll
+    id: 67
+    totalSize: 14336
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.SubsystemsModule.dll
+    role: dll
+    id: 68
+    totalSize: 24064
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.TLSModule.dll
+    role: dll
+    id: 69
+    totalSize: 15872
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.TerrainModule.dll
+    role: dll
+    id: 70
+    totalSize: 88064
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.TerrainPhysicsModule.dll
+    role: dll
+    id: 71
+    totalSize: 10240
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll
+    role: dll
+    id: 72
+    totalSize: 44544
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll
+    role: dll
+    id: 73
+    totalSize: 190464
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.TextRenderingModule.dll
+    role: dll
+    id: 74
+    totalSize: 28160
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.TilemapModule.dll
+    role: dll
+    id: 75
+    totalSize: 32256
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UIElementsModule.dll
+    role: dll
+    id: 76
+    totalSize: 1229312
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UIElementsNativeModule.dll
+    role: dll
+    id: 77
+    totalSize: 48128
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UIModule.dll
+    role: dll
+    id: 78
+    totalSize: 25600
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UNETModule.dll
+    role: dll
+    id: 79
+    totalSize: 78848
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll
+    role: dll
+    id: 80
+    totalSize: 9728
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UmbraModule.dll
+    role: dll
+    id: 81
+    totalSize: 9728
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UnityAnalyticsModule.dll
+    role: dll
+    id: 82
+    totalSize: 34304
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UnityConnectModule.dll
+    role: dll
+    id: 83
+    totalSize: 11264
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UnityCurlModule.dll
+    role: dll
+    id: 84
+    totalSize: 11264
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UnityTestProtocolModule.dll
+    role: dll
+    id: 85
+    totalSize: 9728
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll
+    role: dll
+    id: 86
+    totalSize: 12800
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll
+    role: dll
+    id: 87
+    totalSize: 12288
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UnityWebRequestModule.dll
+    role: dll
+    id: 88
+    totalSize: 46592
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll
+    role: dll
+    id: 89
+    totalSize: 11776
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll
+    role: dll
+    id: 90
+    totalSize: 20992
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.VFXModule.dll
+    role: dll
+    id: 91
+    totalSize: 44032
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.VRModule.dll
+    role: dll
+    id: 92
+    totalSize: 15872
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.VehiclesModule.dll
+    role: dll
+    id: 93
+    totalSize: 13312
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.VideoModule.dll
+    role: dll
+    id: 94
+    totalSize: 29696
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.VirtualTexturingModule.dll
+    role: dll
+    id: 95
+    totalSize: 24064
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.WindModule.dll
+    role: dll
+    id: 96
+    totalSize: 10240
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.XRModule.dll
+    role: dll
+    id: 97
+    totalSize: 59904
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.dll
+    role: dll
+    id: 98
+    totalSize: 102400
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Assembly-CSharp.dll
+    role: dll
+    id: 99
+    totalSize: 17408
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Purchasing.Common.dll
+    role: dll
+    id: 100
+    totalSize: 13312
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll
+    role: dll
+    id: 101
+    totalSize: 3584
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.dll
+    role: dll
+    id: 102
+    totalSize: 29696
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll
+    role: dll
+    id: 103
+    totalSize: 6144
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.Addressables.dll
+    role: dll
+    id: 104
+    totalSize: 102400
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll
+    role: dll
+    id: 105
+    totalSize: 5632
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Advertisements.dll
+    role: dll
+    id: 106
+    totalSize: 37376
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll
+    role: dll
+    id: 107
+    totalSize: 3584
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UI.dll
+    role: dll
+    id: 108
+    totalSize: 278528
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.Analytics.DataPrivacy.dll
+    role: dll
+    id: 109
+    totalSize: 7680
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.AppleCore.dll
+    role: dll
+    id: 110
+    totalSize: 4608
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll
+    role: dll
+    id: 111
+    totalSize: 3584
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.Codeless.dll
+    role: dll
+    id: 112
+    totalSize: 14336
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+    role: dll
+    id: 113
+    totalSize: 6656
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Monetization.dll
+    role: dll
+    id: 114
+    totalSize: 30720
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.AppleStub.dll
+    role: dll
+    id: 115
+    totalSize: 4608
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll
+    role: dll
+    id: 116
+    totalSize: 601088
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.Localization.dll
+    role: dll
+    id: 117
+    totalSize: 255488
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll
+    role: dll
+    id: 118
+    totalSize: 4608
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.Timeline.dll
+    role: dll
+    id: 119
+    totalSize: 129024
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.TextMeshPro.dll
+    role: dll
+    id: 120
+    totalSize: 426496
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll
+    role: dll
+    id: 121
+    totalSize: 375808
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.ResourceManager.dll
+    role: dll
+    id: 122
+    totalSize: 106496
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.VisualScripting.Flow.dll
+    role: dll
+    id: 123
+    totalSize: 352768
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.VisualScripting.Core.dll
+    role: dll
+    id: 124
+    totalSize: 584192
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.Mathematics.dll
+    role: dll
+    id: 125
+    totalSize: 856576
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.Burst.dll
+    role: dll
+    id: 126
+    totalSize: 334336
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll
+    role: dll
+    id: 127
+    totalSize: 7168
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.InternalAPIEngineBridge.013.dll
+    role: dll
+    id: 128
+    totalSize: 4608
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    role: dll
+    id: 129
+    totalSize: 3584
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.Stores.dll
+    role: dll
+    id: 130
+    totalSize: 147456
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.ScriptableBuildPipeline.dll
+    role: dll
+    id: 131
+    totalSize: 7680
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.VisualScripting.State.dll
+    role: dll
+    id: 132
+    totalSize: 28672
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Newtonsoft.Json.dll
+    role: dll
+    id: 133
+    totalSize: 683008
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.Burst.Cecil.Pdb.dll
+    role: dll
+    id: 134
+    totalSize: 87040
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.Burst.Unsafe.dll
+    role: dll
+    id: 135
+    totalSize: 5632
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.Burst.Cecil.Mdb.dll
+    role: dll
+    id: 136
+    totalSize: 44544
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.Burst.Cecil.dll
+    role: dll
+    id: 137
+    totalSize: 346624
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll
+    role: dll
+    id: 138
+    totalSize: 86016
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.Burst.Cecil.Rocks.dll
+    role: dll
+    id: 139
+    totalSize: 28160
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.Runtime.dll
+    role: dll
+    id: 140
+    totalSize: 12288
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/netstandard.dll
+    role: dll
+    id: 141
+    totalSize: 90112
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Mono.Security.dll
+    role: dll
+    id: 142
+    totalSize: 241152
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.ComponentModel.Composition.dll
+    role: dll
+    id: 143
+    totalSize: 257024
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.Configuration.dll
+    role: dll
+    id: 144
+    totalSize: 124928
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.Core.dll
+    role: dll
+    id: 145
+    totalSize: 1113088
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.Data.DataSetExtensions.dll
+    role: dll
+    id: 146
+    totalSize: 29696
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.Data.dll
+    role: dll
+    id: 147
+    totalSize: 2118656
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.Drawing.dll
+    role: dll
+    id: 148
+    totalSize: 489984
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.EnterpriseServices.dll
+    role: dll
+    id: 149
+    totalSize: 44544
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.IO.Compression.FileSystem.dll
+    role: dll
+    id: 150
+    totalSize: 18432
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.IO.Compression.dll
+    role: dll
+    id: 151
+    totalSize: 114688
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.Net.Http.dll
+    role: dll
+    id: 152
+    totalSize: 121344
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.Numerics.dll
+    role: dll
+    id: 153
+    totalSize: 119296
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.Runtime.Serialization.dll
+    role: dll
+    id: 154
+    totalSize: 934400
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.Security.dll
+    role: dll
+    id: 155
+    totalSize: 314880
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.ServiceModel.Internals.dll
+    role: dll
+    id: 156
+    totalSize: 215040
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.Transactions.dll
+    role: dll
+    id: 157
+    totalSize: 35328
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.Xml.Linq.dll
+    role: dll
+    id: 158
+    totalSize: 136704
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.Xml.dll
+    role: dll
+    id: 159
+    totalSize: 3160064
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/System.dll
+    role: dll
+    id: 160
+    totalSize: 2637312
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/mscorlib.dll
+    role: dll
+    id: 161
+    totalSize: 4630528
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.AIModule.pdb
+    role: pdb
+    id: 162
+    totalSize: 12228
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.ARModule.pdb
+    role: pdb
+    id: 163
+    totalSize: 2940
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.AccessibilityModule.pdb
+    role: pdb
+    id: 164
+    totalSize: 3456
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.AndroidJNIModule.pdb
+    role: pdb
+    id: 165
+    totalSize: 28428
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.AnimationModule.pdb
+    role: pdb
+    id: 166
+    totalSize: 45772
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.AssetBundleModule.pdb
+    role: pdb
+    id: 167
+    totalSize: 6696
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.AudioModule.pdb
+    role: pdb
+    id: 168
+    totalSize: 14548
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.ClothModule.pdb
+    role: pdb
+    id: 169
+    totalSize: 3332
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.ClusterInputModule.pdb
+    role: pdb
+    id: 170
+    totalSize: 2288
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.ClusterRendererModule.pdb
+    role: pdb
+    id: 171
+    totalSize: 2920
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.CoreModule.pdb
+    role: pdb
+    id: 172
+    totalSize: 410052
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.CrashReportingModule.pdb
+    role: pdb
+    id: 173
+    totalSize: 2756
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.DSPGraphModule.pdb
+    role: pdb
+    id: 174
+    totalSize: 3472
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.DirectorModule.pdb
+    role: pdb
+    id: 175
+    totalSize: 3572
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.GIModule.pdb
+    role: pdb
+    id: 176
+    totalSize: 2200
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.GameCenterModule.pdb
+    role: pdb
+    id: 177
+    totalSize: 10416
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.GridModule.pdb
+    role: pdb
+    id: 178
+    totalSize: 2928
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.HotReloadModule.pdb
+    role: pdb
+    id: 179
+    totalSize: 2200
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.IMGUIModule.pdb
+    role: pdb
+    id: 180
+    totalSize: 70264
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.ImageConversionModule.pdb
+    role: pdb
+    id: 181
+    totalSize: 3340
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.InputLegacyModule.pdb
+    role: pdb
+    id: 182
+    totalSize: 7816
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.InputModule.pdb
+    role: pdb
+    id: 183
+    totalSize: 3564
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.JSONSerializeModule.pdb
+    role: pdb
+    id: 184
+    totalSize: 2820
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.LocalizationModule.pdb
+    role: pdb
+    id: 185
+    totalSize: 2588
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.NVIDIAModule.pdb
+    role: pdb
+    id: 186
+    totalSize: 8448
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.ParticleSystemModule.pdb
+    role: pdb
+    id: 187
+    totalSize: 27172
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.PerformanceReportingModule.pdb
+    role: pdb
+    id: 188
+    totalSize: 2408
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Physics2DModule.pdb
+    role: pdb
+    id: 189
+    totalSize: 33680
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.PhysicsModule.pdb
+    role: pdb
+    id: 190
+    totalSize: 27400
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.ProfilerModule.pdb
+    role: pdb
+    id: 191
+    totalSize: 2200
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb
+    role: pdb
+    id: 192
+    totalSize: 2264
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.ScreenCaptureModule.pdb
+    role: pdb
+    id: 193
+    totalSize: 2788
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.SharedInternalsModule.pdb
+    role: pdb
+    id: 194
+    totalSize: 7056
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.SpriteMaskModule.pdb
+    role: pdb
+    id: 195
+    totalSize: 2304
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.SpriteShapeModule.pdb
+    role: pdb
+    id: 196
+    totalSize: 3736
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.StreamingModule.pdb
+    role: pdb
+    id: 197
+    totalSize: 2252
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.SubstanceModule.pdb
+    role: pdb
+    id: 198
+    totalSize: 4408
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.SubsystemsModule.pdb
+    role: pdb
+    id: 199
+    totalSize: 8460
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.TLSModule.pdb
+    role: pdb
+    id: 200
+    totalSize: 2220
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.TerrainModule.pdb
+    role: pdb
+    id: 201
+    totalSize: 25028
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb
+    role: pdb
+    id: 202
+    totalSize: 2656
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb
+    role: pdb
+    id: 203
+    totalSize: 16156
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb
+    role: pdb
+    id: 204
+    totalSize: 81376
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.TextRenderingModule.pdb
+    role: pdb
+    id: 205
+    totalSize: 7868
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.TilemapModule.pdb
+    role: pdb
+    id: 206
+    totalSize: 10176
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UIElementsModule.pdb
+    role: pdb
+    id: 207
+    totalSize: 572020
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UIElementsNativeModule.pdb
+    role: pdb
+    id: 208
+    totalSize: 15700
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UIModule.pdb
+    role: pdb
+    id: 209
+    totalSize: 6416
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UNETModule.pdb
+    role: pdb
+    id: 210
+    totalSize: 23136
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UaaLAnalyticsModule.pdb
+    role: pdb
+    id: 211
+    totalSize: 2328
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UmbraModule.pdb
+    role: pdb
+    id: 212
+    totalSize: 2200
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb
+    role: pdb
+    id: 213
+    totalSize: 10508
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UnityConnectModule.pdb
+    role: pdb
+    id: 214
+    totalSize: 2764
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UnityCurlModule.pdb
+    role: pdb
+    id: 215
+    totalSize: 2596
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb
+    role: pdb
+    id: 216
+    totalSize: 2264
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb
+    role: pdb
+    id: 217
+    totalSize: 3720
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb
+    role: pdb
+    id: 218
+    totalSize: 3520
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UnityWebRequestModule.pdb
+    role: pdb
+    id: 219
+    totalSize: 20268
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb
+    role: pdb
+    id: 220
+    totalSize: 3408
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb
+    role: pdb
+    id: 221
+    totalSize: 6640
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.VFXModule.pdb
+    role: pdb
+    id: 222
+    totalSize: 9908
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.VRModule.pdb
+    role: pdb
+    id: 223
+    totalSize: 3252
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.VehiclesModule.pdb
+    role: pdb
+    id: 224
+    totalSize: 3340
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.VideoModule.pdb
+    role: pdb
+    id: 225
+    totalSize: 6372
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.VirtualTexturingModule.pdb
+    role: pdb
+    id: 226
+    totalSize: 6184
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.WindModule.pdb
+    role: pdb
+    id: 227
+    totalSize: 2284
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.XRModule.pdb
+    role: pdb
+    id: 228
+    totalSize: 16244
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.pdb
+    role: pdb
+    id: 229
+    totalSize: 4940
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Assembly-CSharp.pdb
+    role: pdb
+    id: 230
+    totalSize: 21520
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Purchasing.Common.pdb
+    role: pdb
+    id: 231
+    totalSize: 19400
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.RenderPipelines.Universal.Shaders.pdb
+    role: pdb
+    id: 232
+    totalSize: 14152
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.pdb
+    role: pdb
+    id: 233
+    totalSize: 28080
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.WinRTCore.pdb
+    role: pdb
+    id: 234
+    totalSize: 14952
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.Addressables.pdb
+    role: pdb
+    id: 235
+    totalSize: 61040
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.SecurityStub.pdb
+    role: pdb
+    id: 236
+    totalSize: 15308
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Advertisements.pdb
+    role: pdb
+    id: 237
+    totalSize: 32168
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.pdb
+    role: pdb
+    id: 238
+    totalSize: 14164
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.UI.pdb
+    role: pdb
+    id: 239
+    totalSize: 169352
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.Analytics.DataPrivacy.pdb
+    role: pdb
+    id: 240
+    totalSize: 15472
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.AppleCore.pdb
+    role: pdb
+    id: 241
+    totalSize: 14352
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.WinRTStub.pdb
+    role: pdb
+    id: 242
+    totalSize: 14348
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.Codeless.pdb
+    role: pdb
+    id: 243
+    totalSize: 18260
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.pdb
+    role: pdb
+    id: 244
+    totalSize: 14376
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Monetization.pdb
+    role: pdb
+    id: 245
+    totalSize: 26564
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.AppleStub.pdb
+    role: pdb
+    id: 246
+    totalSize: 14968
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.RenderPipelines.Universal.Runtime.pdb
+    role: pdb
+    id: 247
+    totalSize: 291948
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.Localization.pdb
+    role: pdb
+    id: 248
+    totalSize: 140900
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.pdb
+    role: pdb
+    id: 249
+    totalSize: 14972
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.Timeline.pdb
+    role: pdb
+    id: 250
+    totalSize: 79988
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.TextMeshPro.pdb
+    role: pdb
+    id: 251
+    totalSize: 227464
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.RenderPipelines.Core.Runtime.pdb
+    role: pdb
+    id: 252
+    totalSize: 204952
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.ResourceManager.pdb
+    role: pdb
+    id: 253
+    totalSize: 64124
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.VisualScripting.Flow.pdb
+    role: pdb
+    id: 254
+    totalSize: 194680
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.VisualScripting.Core.pdb
+    role: pdb
+    id: 255
+    totalSize: 306928
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.Mathematics.pdb
+    role: pdb
+    id: 256
+    totalSize: 501128
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.Burst.pdb
+    role: pdb
+    id: 257
+    totalSize: 213340
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.SecurityCore.pdb
+    role: pdb
+    id: 258
+    totalSize: 15496
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.InternalAPIEngineBridge.013.pdb
+    role: pdb
+    id: 259
+    totalSize: 14560
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb
+    role: pdb
+    id: 260
+    totalSize: 14164
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/UnityEngine.Purchasing.Stores.pdb
+    role: pdb
+    id: 261
+    totalSize: 84728
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.ScriptableBuildPipeline.pdb
+    role: pdb
+    id: 262
+    totalSize: 16060
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Managed/Unity.VisualScripting.State.pdb
+    role: pdb
+    id: 263
+    totalSize: 25876
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/app.info
+    role: info
+    id: 264
+    totalSize: 27
+  - path: D:/test/localization/Localization/Builds/PC/Localization_Data/Resources/unity
+      default resources
+    role: unity default resources
+    id: 265
+    totalSize: 4841680
+  - path: D:/test/localization/Localization/Builds/PC/Localization.exe
+    role: exe
+    id: 266
+    totalSize: 666624
+  - path: D:/test/localization/Localization/Builds/PC/UnityCrashHandler64.exe
+    role: exe
+    id: 267
+    totalSize: 1139288
+  - path: D:/test/localization/Localization/Builds/PC/UnityPlayer.dll
+    role: dll
+    id: 268
+    totalSize: 48915032
+  - path: D:/test/localization/Localization/Builds/PC/WinPixEventRuntime.dll
+    role: dll
+    id: 269
+    totalSize: 33360
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll
+    role: dll
+    id: 270
+    totalSize: 6982232
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll
+    role: dll
+    id: 271
+    totalSize: 134656
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/etc/mono/browscap.ini
+    role: ini
+    id: 272
+    totalSize: 311984
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/etc/mono/config
+    role: config
+    id: 273
+    totalSize: 3578
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx
+    role: aspx
+    id: 274
+    totalSize: 60575
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/etc/mono/2.0/machine.config
+    role: config
+    id: 275
+    totalSize: 29066
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/etc/mono/2.0/settings.map
+    role: map
+    id: 276
+    totalSize: 2622
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/etc/mono/2.0/web.config
+    role: config
+    id: 277
+    totalSize: 11635
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser
+    role: browser
+    id: 278
+    totalSize: 1605
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx
+    role: aspx
+    id: 279
+    totalSize: 60575
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/etc/mono/4.0/machine.config
+    role: config
+    id: 280
+    totalSize: 33598
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/etc/mono/4.0/settings.map
+    role: map
+    id: 281
+    totalSize: 2622
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/etc/mono/4.0/web.config
+    role: config
+    id: 282
+    totalSize: 18802
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser
+    role: browser
+    id: 283
+    totalSize: 1605
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx
+    role: aspx
+    id: 284
+    totalSize: 60575
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/etc/mono/4.5/machine.config
+    role: config
+    id: 285
+    totalSize: 34056
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/etc/mono/4.5/settings.map
+    role: map
+    id: 286
+    totalSize: 2622
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/etc/mono/4.5/web.config
+    role: config
+    id: 287
+    totalSize: 18811
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser
+    role: browser
+    id: 288
+    totalSize: 1605
+  - path: D:/test/localization/Localization/Builds/PC/MonoBleedingEdge/etc/mono/mconfig/config.xml
+    role: xml
+    id: 289
+    totalSize: 25817
+  m_BuildSteps:
+  - stepName: Build player
+    durationTicks: 153896061
+    depth: 0
+    messages: []
+  - stepName: Preprocess Player
+    durationTicks: 1170139
+    depth: 1
+    messages: []
+  - stepName: Prepare For Build
+    durationTicks: 4664
+    depth: 1
+    messages: []
+  - stepName: ProducePlayerScriptAssemblies
+    durationTicks: 43419238
+    depth: 1
+    messages: []
+  - stepName: Prebuild Cleanup and Recompile
+    durationTicks: 36895723
+    depth: 2
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 36336937
+    depth: 3
+    messages: []
+  - stepName: Generate and validate platform script types
+    durationTicks: 96567
+    depth: 3
+    messages: []
+  - stepName: Verify Build setup
+    durationTicks: 3795579
+    depth: 1
+    messages: []
+  - stepName: Check old data build
+    durationTicks: 2885409
+    depth: 2
+    messages: []
+  - stepName: Set up scripts only build
+    durationTicks: 46496
+    depth: 2
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 1882469
+    depth: 1
+    messages: []
+  - stepName: Run script only build
+    durationTicks: 97281908
+    depth: 1
+    messages: []
+  - stepName: Build scripts DLLs
+    durationTicks: 97140479
+    depth: 2
+    messages: []
+  - stepName: GetReferencedAssemblies
+    durationTicks: 25823688
+    depth: 3
+    messages: []
+  - stepName: burst
+    durationTicks: 66833530
+    depth: 3
+    messages:
+    - type: 2
+      content: 'Unable to find player assembly: D:\test\localization\Localization\Temp\StagingArea\Data\Managed\UnityEngine.TestRunner.dll'
+  - stepName: Postprocess built player
+    durationTicks: 1894687
+    depth: 1
+    messages: []
+  - stepName: Setup incremental player build
+    durationTicks: 280015
+    depth: 2
+    messages: []
+  - stepName: Incremental player build
+    durationTicks: 995683
+    depth: 2
+    messages: []
+  - stepName: Report output files
+    durationTicks: 282127
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: -1990117321021593721}
+  - {fileID: -1716038829303007492}
+  - {fileID: -8611939442117334082}

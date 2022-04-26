@@ -1,0 +1,25 @@
+{
+    "name": "Unity.ProjectAuditor.EditorTests",
+    "references": [
+        "Unity.ProjectAuditor.Editor"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "Mono.Cecil.dll"        
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [ {
+        "name": "Unity",
+        "expression": "2019.4",
+        "define": "BUILD_REPORT_API_SUPPORT"
+    }]
+}

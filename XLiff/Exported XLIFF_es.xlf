@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<xliff xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" srcLang="en" trgLang="es" xmlns="urn:oasis:names:tc:xliff:document:2.0">
+  <file id="c226bfb02a55c9b459476064bbcaae44" original="Assets/Localization/UILocalizationStrings_es.asset">
+    <group id="59ff51ce3bbc2cc4b9391bc97b8a807d" name="UILocalizationStrings">
+      <unit id="52287889408" name="startText" xml:space="preserve">
+        <segment>
+          <source>Start</source>
+          <target>Comienzo</target>
+        </segment>
+      </unit>
+      <unit id="416449945600" name="readyText" xml:space="preserve">
+        <segment>
+          <source>Ready</source>
+          <target>{gender:choose(Male|Female):Listo|Lista}</target>
+        </segment>
+      </unit>
+      <unit id="692657446912" name="maleText" xml:space="preserve">
+        <segment>
+          <source>Male</source>
+          <target>Masculino</target>
+        </segment>
+      </unit>
+      <unit id="842029195264" name="femaleText" xml:space="preserve">
+        <segment>
+          <source>Female</source>
+          <target>Mujer</target>
+        </segment>
+      </unit>
+      <unit id="1118576435200" name="paraText" xml:space="preserve">
+        <segment>
+          <source>This is an example paragraph. We will put this nested words here like getting Ready.</source>
+          <target>Este es un párrafo de ejemplo. Pondremos estas palabras anidadas aquí como Getting Ready.</target>
+        </segment>
+      </unit>
+      <unit id="29913941401600" name="sliderText" xml:space="preserve">
+        <segment>
+          <source> select {slider.value:choose(1|2|3):one|two|three}</source>
+          <target>seleccione {slider.value:choose(1|2|3):uno|dos|tres}</target>
+        </segment>
+      </unit>
+      <unit id="42186319716352" name="heroText" xml:space="preserve">
+        <segment>
+          <source>Our Hero {global.player-name} walked.</source>
+          <target>Nuestro héroe  {global.player-name} caminó</target>
+        </segment>
+      </unit>
+      <unit id="415377198837760" name="penText" xml:space="preserve">
+        <segment>
+          <source>{slider.value:plural:pen|pens}</source>
+          <target>{slider.value:plural:bolígrafo|bolígrafos}</target>
+        </segment>
+      </unit>
+      <unit id="415869584961536" name="theItemText&#xA;" xml:space="preserve">
+        <segment>
+          <source>{item:{article}} {item} {verb} {color}</source>
+          <target>{item:{article}} {item} {verb} {item:{color}}</target>
+        </segment>
+      </unit>
+      <unit id="417066991644672" name="whiteText" xml:space="preserve">
+        <segment>
+          <source>white</source>
+          <target>{gender:choose(Male|Female):{slider.value:plural:blanco|blancos}|{slider.value:plural:blanca|blancas}}</target>
+        </segment>
+      </unit>
+      <unit id="427937549676544" name="purseText" xml:space="preserve">
+        <segment>
+          <source>{slider.value:plural:purse|purses}</source>
+          <target>{slider.value:plural:bolsa|bolsas}</target>
+        </segment>
+      </unit>
+      <unit id="428687818387456" name="articleText" xml:space="preserve">
+        <segment>
+          <source>The</source>
+          <target>{gender:choose(Male|Female):{slider.value:plural:El|Los}|{slider.value:plural:La|Las}}</target>
+        </segment>
+      </unit>
+      <unit id="489851461988352" name="verbText" xml:space="preserve">
+        <segment>
+          <source>{slider.value:plural:is|are}</source>
+          <target>{slider.value:plural:es|son}</target>
+        </segment>
+      </unit>
+      <unit id="723590418952192" name="elephantText" xml:space="preserve">
+        <segment>
+          <source>{slider.value:plural:elephant|elephants}</source>
+          <target>{slider.value:plural:elefante|elefantes}</target>
+        </segment>
+      </unit>
+      <unit id="749499310043136" name="grammarSpaceText" xml:space="preserve">
+        <segment>
+          <source> </source>
+          <target> </target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

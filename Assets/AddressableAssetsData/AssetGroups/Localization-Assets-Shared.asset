@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 07b83bb09dd43f54ba8828ef94aba0e4
+  m_SerializeEntries:
+  - m_GUID: 5166e5801d5ef434cb53b52c24c134bb
+    m_Address: Assets/Localization/Local_art/ImageTable Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 59ff51ce3bbc2cc4b9391bc97b8a807d
+    m_Address: Assets/Localization/UILocalizationStrings Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 1317265bd367bf24c8c9252ba14c8797
+    m_Address: Assets/Samples/Localization/1.0.5/Smart Strings - Persistent Variables/String
+      Table/Gender Sample Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 27153e20147c06c4c8d1304d28104a87
+    m_Address: Assets/Samples/Localization/1.0.5/Smart Strings - Persistent Variables/String
+      Table/Global Variables Sample Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: e00bb1ad2ae4e0944b8160307476154b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ea10adf863d28c44cad2dec2e2e6f882, type: 2}
+    - {fileID: 11400000, guid: e44f19143d73420408a83ace144ba44d, type: 2}

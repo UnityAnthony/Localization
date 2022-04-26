@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UILocalizationStrings_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 59ff51ce3bbc2cc4b9391bc97b8a807d, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 690557243739079578
+  m_TableData:
+  - m_Id: 52287889408
+    m_Localized: "D\xE9marrer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 416449945600
+    m_Localized: "{gender:choose(Male|Female):Pr\xEAt|Pr\xEAte}"
+    m_Metadata:
+      m_Items:
+      - rid: 690557243739079579
+      - rid: 690557243739079578
+  - m_Id: 692657446912
+    m_Localized: "M\xE2le"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 842029195264
+    m_Localized: Femme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1118576435200
+    m_Localized: "Ceci est un exemple de paragraphe. Nous mettrons ces mots imbriqu\xE9s
+      ici comme se pr\xE9parer."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29913941401600
+    m_Localized: "s\xE9lectionner {slider.value:choose(1|2|3):un|deux|trois}"
+    m_Metadata:
+      m_Items:
+      - rid: 690557243739079578
+      - rid: 690557243739079580
+  - m_Id: 42186319716352
+    m_Localized: "Notre h\xE9ros  {global.player-name} a march\xE9"
+    m_Metadata:
+      m_Items:
+      - rid: 690557243739079578
+  - m_Id: 427937549676544
+    m_Localized: '{slider.value:plural:bourse|bourses}'
+    m_Metadata:
+      m_Items:
+      - rid: 690557243739079581
+      - rid: 690557243739079578
+  - m_Id: 415377198837760
+    m_Localized: '{slider.value:plural:stylo|stylos}'
+    m_Metadata:
+      m_Items:
+      - rid: 690557243739079582
+      - rid: 690557243739079578
+  - m_Id: 415869584961536
+    m_Localized: '{item:{article}}{item:{grammarSpace}}{item} {verb} {item:{color}}'
+    m_Metadata:
+      m_Items:
+      - rid: 690557243739079578
+  - m_Id: 417066991644672
+    m_Localized: '{gender:choose(Male|Female):{slider.value:plural:blanc|blancs}|{slider.value:plural:blanche|blanches}}'
+    m_Metadata:
+      m_Items:
+      - rid: 690557243739079578
+  - m_Id: 428687818387456
+    m_Localized: "{gender:choose(Male|Female):\r{slider.value:plural:{item:ismatch(^[aeiouAEIOU\xE0\xE2\xE9\xE8\xEA\xEB\xEE\xEF\xF4\xF6\xF9\xFB\xFC]):L|Le}|Les}\r|{slider.value:plural:{item:ismatch(^[aeiouAEIOU\xE0\xE2\xE9\xE8\xEA\xEB\xEE\xEF\xF4\xF6\xF9\xFB\xFC]):L|La}|Les}\r}"
+    m_Metadata:
+      m_Items:
+      - rid: 690557243739079578
+  - m_Id: 489851461988352
+    m_Localized: '{slider.value:plural:est|sont}'
+    m_Metadata:
+      m_Items:
+      - rid: 690557243739079578
+  - m_Id: 723590418952192
+    m_Localized: "{slider.value:plural:\xE9l\xE9phant|\xE9l\xE9phants}"
+    m_Metadata:
+      m_Items:
+      - rid: 690557243739079583
+      - rid: 690557243739079578
+  - m_Id: 749499310043136
+    m_Localized: "{slider.value:plural:{item:ismatch(^[aeiouAEIOU\xE0\xE2\xE9\xE8\xEA\xEB\xEE\xEF\xF4\xF6\xF9\xFB\xFC]):'|
+      }|{item:ismatch(^[aeiouAEIOU\xE0\xE2\xE9\xE8\xEA\xEB\xEE\xEF\xF4\xF6\xF9\xFB\xFC]):
+      |} }"
+    m_Metadata:
+      m_Items:
+      - rid: 690557243739079578
+  references:
+    version: 2
+    RefIds:
+    - rid: 690557243739079578
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00e0d9e1341b000000e099445e26000000e059f66000000000702246426f01000070e2f9517b0100007022a9e38501000070a2f9348501000070628ac87901000070626e84bd01000070e2051a92020000702268aaa902000070e22e3b7a0100
+    - rid: 690557243739079579
+      type: {class: ItemGender, ns: , asm: Assembly-CSharp}
+      data:
+        gender: 2
+    - rid: 690557243739079580
+      type: {class: ItemGender, ns: , asm: Assembly-CSharp}
+      data:
+        gender: 0
+    - rid: 690557243739079581
+      type: {class: ItemGender, ns: , asm: Assembly-CSharp}
+      data:
+        gender: 1
+    - rid: 690557243739079582
+      type: {class: ItemGender, ns: , asm: Assembly-CSharp}
+      data:
+        gender: 2
+    - rid: 690557243739079583
+      type: {class: ItemGender, ns: , asm: Assembly-CSharp}
+      data:
+        gender: 2

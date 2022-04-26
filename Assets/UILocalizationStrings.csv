@@ -1,0 +1,17 @@
+﻿Key,Id,Shared Comment,English(en),English(en) Comments,French(fr),French(fr) Comments,Spanish(es),Spanish(es) Comments
+startText,52287889408,,Start,,Démarrer,,Comienzo,
+readyText,4.1645E+11,,Ready,,{gender:choose(Male|Female):Prêt|Prête},,{gender:choose(Male|Female):Listo|Lista},
+maleText,6.92657E+11,,Male,,Mâle,,Masculino,
+femaleText,8.42029E+11,,Female,,Femme,,Mujer,
+paraText,1.11858E+12,,This is an example paragraph. We will put this nested words here like getting Ready.,,Ceci est un exemple de paragraphe. Nous mettrons ces mots imbriqués ici comme se préparer.,,Este es un párrafo de ejemplo. Pondremos estas palabras anidadas aquí como Getting Ready.,
+sliderText,2.99139E+13,, select {slider.value:choose(1|2|3):one|two|three},,sélectionner {slider.value:choose(1|2|3):un|deux|trois},,seleccione {slider.value:choose(1|2|3):uno|dos|tres},
+heroText,4.21863E+13,,Our Hero {global.player-name} walked.,,Notre héros  {global.player-name} a marché,,Nuestro héroe  {global.player-name} caminó,
+penText,4.15377E+14,,{slider.value:plural:pen|pens},,{slider.value:plural:stylo|stylos},,{slider.value:plural:bolígrafo|bolígrafos},
+"theItemText
+",4.1587E+14,,{item:{article}} {item} {verb} {color},,{item:{article}}{item:{grammarSpace}}{item} {verb} {item:{color}},,{item:{article}} {item} {verb} {item:{color}},
+whiteText,4.17067E+14,,white,,{gender:choose(Male|Female):{slider.value:plural:blanc|blancs}|{slider.value:plural:blanche|blanches}},,{gender:choose(Male|Female):{slider.value:plural:blanco|blancos}|{slider.value:plural:blanca|blancas}},
+purseText,4.27938E+14,,{slider.value:plural:purse|purses},,{slider.value:plural:bourse|bourses},,{slider.value:plural:bolsa|bolsas},
+articleText,4.28688E+14,,The,,"{gender:choose(Male|Female):{slider.value:plural:{item:ismatch(^[aeiouAEIOUàâéèêëîïôöùûü]):L|Le}|Les}|{slider.value:plural:{item:ismatch(^[aeiouAEIOUàâéèêëîïôöùûü]):L|La}|Les}}",,"{gender:choose(Male|Female):{slider.value:plural:El|Los}|{slider.value:plural:La|Las}}",
+verbText,4.89851E+14,,{slider.value:plural:is|are},,{slider.value:plural:est|sont},,{slider.value:plural:es|son},
+elephantText,7.2359E+14,,{slider.value:plural:elephant|elephants},,{slider.value:plural:éléphant|éléphants},,{slider.value:plural:elefante|elefantes},
+grammarSpaceText,7.49499E+14,, ,,{slider.value:plural:{item:ismatch(^[aeiouAEIOUàâéèêëîïôöùûü]):'| }|{item:ismatch(^[aeiouAEIOUàâéèêëîïôöùûü]): |} },, ,
